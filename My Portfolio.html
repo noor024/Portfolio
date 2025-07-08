@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Portfolio</title>
+  <link href="./My Portfolio_files/css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+      color: #fff;
+    }
+    header {
+      background: #0f3460;
+      padding: 40px 0 20px 0;
+      text-align: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+      position: relative;
+    }
+    .logo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #e94560 0%, #ffd700 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 20px auto;
+      box-shadow: 0 2px 10px rgba(233,69,96,0.3);
+    }
+    .logo img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      letter-spacing: 2px;
+      color: #ffd700;
+    }
+    h2 {
+      color: #e94560;
+      margin-top: 40px;
+      text-align: center;
+    }
+    .about, .projects, .contact {
+      max-width: 900px;
+      margin: 40px auto;
+      background: rgba(22,33,62,0.85);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 2px 16px rgba(0,0,0,0.15);
+    }
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #fff;
+    }
+    .projects-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 24px;
+      margin-top: 24px;
+    }
+    .project-card {
+      background: #22223b;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(255,215,0,0.08);
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-6px) scale(1.03);
+      box-shadow: 0 6px 24px rgba(233,69,96,0.15);
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      background: #fff;
+    }
+    .project-title {
+      color: #ffd700;
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+    .project-desc {
+      color: #fff;
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+    .contact-info {
+      text-align: center;
+      color: #fff;
+      font-size: 1.1rem;
+    }
+    .contact-info a {
+      color: #e94560;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      .about, .projects, .contact {
+        padding: 16px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Replace with your logo image -->
+      <img src="./My Portfolio_files/Noorportfolio.jpg" alt="A large stylized capital letter M is centered above the text Noor Mohammad, both in an elegant serif font on a dark blue background. The design conveys a professional and sophisticated tone. The text in the image reads M Noor Mohammad." width="100" height="100">
+    </div>
+    <h1>Noor Mohd </h1>
+    <p style="color:#fff; font-size:1.2rem;">Web Developer &amp; Designer </p>
+    <div style="margin-top: 16px;">
+      <a href="https://github.com/shahnoor15" target="_blank" style="margin:0 8px; display:inline-block;">
+      <img src="./My Portfolio_files/github.svg" alt="GitHub" style="width:28px; height:28px; filter:invert(1);">
+      </a>
+      <a href="https://x.com/shas_noor" target="_blank" style="margin:0 8px; display:inline-block;">
+      <img src="./My Portfolio_files/twitter.svg" alt="Twitter" style="width:28px; height:28px; filter:invert(1);">
+      </a>
+      <a href="https://www.linkedin.com/in/noor-mohammad-00932a355" target="_blank" style="margin:0 8px; display:inline-block;">
+      <img src="./My Portfolio_files/linkedin.svg" alt="LinkedIn" style="width:28px; height:28px; filter:invert(1);">
+      </a>
+      <a href="mailto:devcoder.024@gmail.com" style="margin:0 8px; display:inline-block;">
+      <img src="./My Portfolio_files/gmail.svg" alt="Email" style="width:28px; height:28px; filter:invert(1);">
+    </a>
+    <a href="https://www.facebook.com/share/19cDt59qzJ/" target="_blank" style="margin: 0 8px; display:inline-block;">
+      <img src="./My Portfolio_files/facebook.svg" alt="Facebook" style="width:28px; height:28px; filter:invert(1);">
+    </a>
+    <a href="https://instagram.com/itz.sanu024" target="_blank" style="margin: 0 8px; display:inline-block;">
+      <img src="./My Portfolio_files/instagram.svg" alt="Instagram" style="width:28px; height:28px; filter:invert(1);">
+    </a>
+    </div>
+  </header>
+
+  <section class="about" id="about">
+    <h2>About Me</h2>
+    <p>
+      Hi! I'm <b>Shah Noor Mohammad</b>, a passionate web developer with a love for creating elegant and functional websites. I specialize in modern web technologies and enjoy crafting digital experiences with a touch of luxury and style.
+    </p>
+  </section>
+
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="projects-list">
+      <div class="project-card">
+        <img src="./My Portfolio_files/photo-1461749280684-dccba630e2f6" alt="Project 1">
+        <div class="project-title">Luxury Landing Page</div>
+        <div class="project-desc">A high-end landing page for a luxury brand, featuring smooth animations and a gold-accented color palette.</div>
+      </div>
+      <div class="project-card">
+        <img src="./My Portfolio_files/photo-1506744038136-46273834b3fb" alt="Project 2">
+        <div class="project-title">Portfolio Website</div>
+        <div class="project-desc">A personal portfolio site with a modern, elegant design and responsive layout.</div>
+      </div>
+      <div class="project-card">
+        <img src="./My Portfolio_files/photo-1519125323398-675f0ddb6308" alt="Project 3">
+        <div class="project-title">E-commerce UI</div>
+        <div class="project-desc">A luxury e-commerce interface with a focus on user experience and premium visuals.</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Contact</h2>
+    <div class="contact-info">
+      Email: <a href="mailto:devcoder.024@gmail.com">devcoder.024@gmail.com</a><br>
+      LinkedIn: <a href="https://www.linkedin.com/in/noor-mohammad-00932a355" target="_blank">Noor Mohammad</a>
+    </div>
+  </section>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>
